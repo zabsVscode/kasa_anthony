@@ -1,0 +1,29 @@
+// styles.scss
+
+@import 'Home';
+@import 'Navbar';
+@import 'About';
+@import 'Banner';
+@import 'Footer';
+@import 'Cards';
+@import 'Card';
+@import 'Carousel';
+@import 'Shaping';
+@import 'Collapse';
+@import 'Footer';
+@import 'ErrorPage';
+
+.app-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
