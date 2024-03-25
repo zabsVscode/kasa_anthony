@@ -1,14 +1,11 @@
-import React from 'react'
-import './Style/style.scss'
+import React from 'react';
+import '../Style/style.scss';
 
-import React from 'react'
-import Navbar from "../Layout/Navbar"
-import Shaping from '../Layout/Shaping' // mise en forme 100px à droite & gauche
-import Banner from '../Components/Banner'
-import Footer from "../Layout/Footer"
-import Cards from '../Components/Cards'
-
-import "../Styles/Home.css"
+import Navbar from '../Layout/Navbar';
+import Shaping from '../Layout/Shaping';
+import Banner from '../Components/Banner';
+import Footer from "../Layout/Footer";
+import Cards from '../Components/Cards';
 
 function Home() {
     return (
