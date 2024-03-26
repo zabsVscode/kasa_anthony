@@ -4,18 +4,16 @@ import '../Style/style.scss';
 import logo from '../Assets/logo.png';
 
 function Navbar() {
-    const isActiveStyle = { textDecoration: "underline" };
-
     // Utilisation d'un tableau en prévision d'ajout au menu
     const menuItems = [
         { to: "/", label: "Accueil" },
         { to: "/about", label: "A Propos" },
     ];
 
-    // défini la choix actif et affiche le label du menu
+    // défini le choix actif et affiche le label du menu
     const menuItem = ({ to, label }) => (
         <li key={to}>
-            <NavLink to={to} style={({ isActive }) => isActive ? isActiveStyle : undefined }>
+            <NavLink to={to}>
                 {label}
             </NavLink>
         </li>
