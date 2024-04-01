@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import '../Style/style.scss';
 
-import Navbar from '../Layout/Navbar';
-import Footer from '../Layout/Footer';
-import Shaping from '../Layout/Shaping';
-import ErrorPage from './ErrorPage';
-import Collapse from '../Components/Collapse';
-import Carousel from '../Components/Carousel';
+import Navbar from "../Layout/Navbar"
+import Footer from "../Layout/Footer"
+import Shaping from "../Layout/Shaping"
+import ErrorPage from "./ErrorPage"
+import Collapse from '../Components/Collapse'
+import Carousel from '../Components/Carousel'
 
 import records from "../Datas/logements.json";
 

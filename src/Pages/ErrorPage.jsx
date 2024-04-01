@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { Link } from "react-router-dom"
-import '../Style/style.scss';
 
 import Shaping from "../Layout/Shaping"
 import Navbar from "../Layout/Navbar"

@@ -1,12 +1,10 @@
 import React from 'react';
-import '../Style/style.scss';
 
-import Navbar from '../Layout/Navbar';
-import Shaping from '../Layout/Shaping';
-import Banner from '../Components/Banner';
+import Shaping from "../Layout/Shaping"
+import Navbar from "../Layout/Navbar"
+import Banner from '../Components/Banner'
+import Footer from "../Layout/Footer"
 import Collapse from '../Components/Collapse'
-import Footer from "../Layout/Footer";
-import Cards from '../Components/Cards';
 
 function About() {
     // contenu qui sera affiché dans les Collapse

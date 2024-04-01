@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/style.scss';
+import '../Style/Banner.scss'
 
 // composant children pour le cas ou il y aurait plus de 2 bannières.
 function Banner({children}) { 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import chevronUp from "../Assets/ChevronUp.png"
 import chevronDown from "../Assets/ChevronDown.png"
-import '../Style/style.scss';
+import "../Style/Collapse.scss"
 
 
 
@@ -16,7 +16,7 @@ function Collapse({title, content}) {
 
     // défini les classes selon si c'est visible ou caché, idem pour le chevron
     const collapseContent = (contentVisible ? "visible" : "hidden") + " collapse"
-    const collapseChevron = (contentVisible ? chevronUp : chevronDown)
+    const collapseChevron = (contentVisible ? chevronDown : chevronUp)
 
     return (
         <div className='collapse'>

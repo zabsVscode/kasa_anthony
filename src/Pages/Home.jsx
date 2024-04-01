@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Style/style.scss';
+import "../Style/Home.scss"
 
 import Navbar from '../Layout/Navbar';
 import Shaping from '../Layout/Shaping';
