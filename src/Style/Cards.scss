@@ -25,7 +25,8 @@
     border-radius: 10px;
     transition: 0.3s;
     min-width: 280px;
-    width: 100%;
+    width: 300px;
+    height: 300px;
     padding-bottom: 10px;
 }
 
@@ -36,16 +37,25 @@
     object-fit: cover;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .fiche-logement h3 {
     display: flex;
     height: 65px;
     font-size: 18px;
     font-weight: 500;
     line-height: 142.6%;
-    margin: 0px 20px;
+    margin: 0px 43px;
+    font-family: "Montserrat", sans-serif;
     align-items: center;
-    overflow: hidden;  /* empêche le titre de sortir du bloc */
+    overflow: hidden;
     color: white;
+    width: 151px;
+    height: 79px;
+    position: relative;
+    top: 229px;
+    left: -21px;
+
 }
 
 .fiche-logement:hover {
@@ -60,6 +70,24 @@
     .logements { 
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
     }
+
+    .fiche-logement h3 {
+        display: flex;
+    height: 65px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 142.6%;
+    margin: 0px 43px;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    width: 151px;
+    height: 79px;
+    position: relative;
+    top: 229px;
+    left: -21px;
+    }
 }
 
  @media (max-width: 768px) {
@@ -73,8 +101,9 @@
         min-width: 200px;
         height: 255px;
     }
-    .fiche-logement img { 
-        height: 188px; 
+    .fiche-logement h3 {
+    top: 194px;
+    left: -22px;
     }
 }
 
@@ -87,4 +116,9 @@
         margin-top: 20px;
         padding: 0;
     }
+
+    .fiche-logement h3 {
+        top: 194px;
+        left: -22px;
+        }
 } 
